@@ -52,4 +52,33 @@ const myfunction = function (){
     console.log('hello world');
 }
 
-console.log(typeof myObj);
+// console.log(typeof myObj);
+
+
+//++++++++++++++++++ 
+
+//stack memory (primitive)and heap memory(non primitive)
+
+let myYoutubeName='manudotcom';
+
+let anothername=myYoutubeName;
+ anothername='harshadtcom';
+
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+
+let user1={
+    email:"user1@gmail.com",
+    upi:"usr1@ybl.123"
+};
+let user2={
+    email:"user2@gmail.com",
+    upi:"usr2@ybl.123"
+};
+
+
+console.log(user1.email);
+console.log(user2.email);
+
