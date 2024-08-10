@@ -39,5 +39,4 @@ for (let i = 0; i <=20; i++) {
         continue;
     }
     console.log(`value of i is :${i}`);
-    
 }
